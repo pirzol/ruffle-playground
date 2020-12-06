@@ -1,3 +1,3 @@
 # ruffle-playground
 
-A basic http server with ruffle.js to test ruffle features 
+A basic http server with ruffle.js and basic swf to test ruffle.js features 
