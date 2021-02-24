@@ -1,4 +1,7 @@
-var port = '8080';
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
 var express = require('express'),
     app = express();
 app.use(express.static(__dirname + '/public'));
